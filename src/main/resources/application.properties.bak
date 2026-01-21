@@ -1,0 +1,12 @@
+# ===============================
+# Database Configuration
+# PostgreSQL (Render Compatible)
+# ===============================
+
+spring.datasource.url=\
+spring.datasource.username=\
+spring.datasource.password=\
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=false
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
